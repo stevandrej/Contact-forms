@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact form</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika+Negative:wght@600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+	<section class="contact">
+		<div class="form_container">
+			<svg class="form_container__svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="501px" height="301px"
+				viewBox="0 0 501 301" style="enable-background:new 0 0 501 301;" xml:space="preserve">
+				<path class="form_container__path" d="M6.7,0.5h487.7c3.4,0,6.2,2.8,6.2,6.2v45c0,3.4-2.8,6.2-6.2,6.2h-10.7c-3.4,0-6.2,2.8-6.2,6.2v0
+	c0,3.4,2.8,6.2,6.2,6.2h10.7c3.4,0,6.2,2.8,6.2,6.2v28.3c0,3.4-2.8,6.2-6.2,6.2h-29c-3.4,0-6.2,2.8-6.2,6.2v9.3
+	c0,3.4,2.8,6.2,6.2,6.2h29c3.4,0,6.2,2.8,6.2,6.2v155.7c0,3.4-2.8,6.2-6.2,6.2H6.7c-3.4,0-6.2-2.8-6.2-6.2v-19.7
+	c0-3.4,2.8-6.2,6.2-6.2H24c3.4,0,6.2-2.8,6.2-6.2v-6c0-3.4-2.8-6.2-6.2-6.2H6.7c-3.4,0-6.2-2.8-6.2-6.2v-45.7c0-3.4,2.8-6.2,6.2-6.2
+	h26c3.4,0,6.2-2.8,6.2-6.2v-8.3c0-3.4-2.8-6.2-6.2-6.2h-26c-3.4,0-6.2-2.8-6.2-6.2V6.7C0.5,3.3,3.3,0.5,6.7,0.5z" />
+			</svg>
+			<div class="form_content">
+				<div class="form_content__form">
+					<h1 class="form_content__header">Let's talk</h1>
+					<p class="form_content__description">To request a quote or want to meet up for coffee, contact us
+						directly or fill out the form and we
+						will get back to you promptly.</p>
+					<form>
+						<div class="input-field">
+							<label for="name" class="input-field__label">
+								Your Name
+							</label>
+							<input name="name" type="text" class="input-field__input" />
+						</div>
+						<div class="input-field">
+							<label for="email" class="input-field__label">Your Email</label>
+							<input name="email" type="email" class="input-field__input" />
+						</div>
+						<div class="input-field">
+							<label for="message" class="input-field__label">Your Message</label>
+							<textarea class="input-field__input input-field__input--txt-area" name="message" rows="5"
+								placeholder="Type something to us..."></textarea>
+						</div>
+						<button type="submit" class="form_content__btn btn btn--large">Send Message</button>
+					</form>
+				</div>
+				<div class="form_content__info">
+					<div class="icon-animation">
+						<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_9ltfoN.json"
+							background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+						</lottie-player>
+					</div>
+					<ul class="contact_info">
+						<li class="contact_info__element">
+							<i class="fas fa-map-marker-alt contact_info__element__icon"></i>
+							<p>151 New Park Ave, Hartford, CT 06106<br /> United States</p>
+						</li>
+						<li class="contact_info__element">
+							<i class="fas fa-phone-alt contact_info__element__icon"></i>
+							<p>+389 123 456 789</p>
+						</li>
+						<li class="contact_info__element">
+							<i class="fas fa-envelope contact_info__element__icon"></i>
+							<p>contactus@email.com</p>
+						</li>
+					</ul>
+					<ul class="social_icons">
+						<li class="social_icons__element social_icons__element--facebook">
+							<i class="fab fa-facebook icon-size25"></i>
+						</li>
+						<li class="social_icons__element social_icons__element--twitter">
+							<i class="fab fa-twitter icon-size25"></i>
+						</li>
+						<li class="social_icons__element social_icons__element--instagram">
+							<i class="fab fa-instagram icon-size25"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>

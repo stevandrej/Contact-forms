@@ -1,0 +1,178 @@
+//formA_ is a prefix to the class names
+
+//Basic elements
+html {
+	font-size: 62.5%;
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+}
+
+[class^="formA_"] {
+	box-sizing: border-box;
+}
+
+//section Background
+.formA_section-contact-form {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #3e2291;
+	color: #fff;
+}
+
+.formA_section-title{
+	font-size: 3.8rem;
+	margin: 0;
+	text-align: center;
+}
+
+.formA_section-descr{
+	margin: 20px 0 30px 0;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	max-width: 650px;
+	width: 100%;
+}
+
+.formA_info-list {
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	li {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 8px;
+		padding: 20px 30px;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: #f8929d;
+		}
+	}
+
+	&__icon{
+		margin-bottom: 10px;
+	}
+}
+
+//Container
+.formA_container {
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 8px;
+}
+
+//form title
+.formA_title{
+	margin: 0 0 20px 0;
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+
+//Middle section -- FORM fields
+.formA_ct-form {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.formA_wrapper-formfields{
+	display: flex;
+}
+
+//div input field container
+.formA_input-row {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	&__label {
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+
+	&__input {
+		border: 2px solid #ccc;
+		border-radius: 6px;
+		outline: none;
+		font-family: inherit;
+		font-size: 1.6rem;
+		padding: 5px 8px;
+		resize: none;
+		transition: border	.2s;
+
+		&:focus,
+		&:active {
+			border: 2px solid #f8929d;
+		}
+	}
+}
+
+//Message field
+#formA_i-message{
+	height: 100%;
+}
+
+//left side input fields
+.formA_user-info {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+	margin-right: 30px;
+	justify-content: space-between;
+}
+
+//right side Message input field
+.formA_message {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+
+.formA_btn-holder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.formA_btn{
+	background-color: #f8929d;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 40px;
+	cursor: pointer;
+	transition: background-color .2s;
+
+	&:hover,
+	&:focus{
+		background-color: darken($color: #f8929d, $amount: 10%);
+	}
+}

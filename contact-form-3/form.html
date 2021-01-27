@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="./normalize.css" />
+	<link rel="stylesheet" href="./from.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Quicksand:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+	<section class="formA-section_contact">
+		<div class="formA-contact_card">
+			<div class="formA-header">
+				<h2 class="formA-header__logo">Company Name</h2>
+
+				<ul class="formA-header__menu">
+					<li>About</li>
+					<li>Team</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+
+			<div class="formA-content">
+				<div class="formA-info">
+					<div class="formA-info__text">
+						<h1>Let's talk</h1>
+						<p>Ask us anything or just say hi...</p>
+					</div>
+					<div class="formA-info__address">
+						<p><i class="fas fa-phone-alt"></i> 1 234 567 890</p>
+						<p><i class="far fa-envelope"></i> hello@email.com</p>
+					</div>
+				</div>
+				<form class="formA-form">
+					<!--Name and Email-->
+					<div class="formA-row">
+						<div class="formA-form_field">
+							<label for="name">
+								NAME
+							</label>
+							<input type="text" placeholder="John Doe" name="name" />
+						</div>
+
+						<div class="formA-form_field">
+							<label for="email">
+								EMAIL
+							</label>
+							<input type="email" placeholder="example@email.com" name="email" />
+						</div>
+					</div>
+
+					<!--Message-->
+					<div class="formA-row">
+						<div class="formA-form_field">
+							<label for="message">
+								MESSAGE
+							</label>
+							<input type="text" name="message" placeholder="Hello there..." />
+						</div>
+					</div>
+
+					<!--Send BTN-->
+					<div class="formA-row">
+						<button class="formA-btn formA-btn--submit"><span class="formA-btn__txt">Send</span> <i
+								class="fab fa-telegram-plane"></i></button>
+					</div>
+				</form>
+			</div>
+
+			<div class="formA-footer">
+				<ul class="formA-social_icons">
+					<li class="formA-social_icons__icon"><button class="formA-btn formA-btn--full"><i
+								class="fab fa-facebook-f"></i></button></li>
+					<li class="formA-social_icons__icon"><button class="formA-btn formA-btn--full"><i
+								class="fab fa-instagram"></i></button></li>
+					<li class="formA-social_icons__icon"><button class="formA-btn formA-btn--full"><i
+								class="fab fa-twitter"></i></button></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

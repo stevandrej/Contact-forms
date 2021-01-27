@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<section class="formA_section-contact-form">
+		<h1 class="formA_section-title">Get in touch!</h1>
+		<h6 class="formA_section-descr">Contact us for more informations or visit us on a cup of coffee</h6>
+
+		<div class="wrapper">
+
+			<ul class="formA_info-list">
+				<li>
+					<i class="formA_info-list__icon fas fa-map-marker-alt"></i>
+					102 Street 2714 Don
+				</li>
+				<li>
+					<i class="formA_info-list__icon fas fa-phone"></i>
+					+389 70 123 321
+				</li>
+				<li>
+					<i class="formA_info-list__icon fas fa-envelope"></i>
+					hello@email.com
+				</li>
+			</ul>
+
+			<div class="formA_container">
+				<h4 class="formA_title">Contact Form</h4>
+				<form class="formA_ct-form">
+					<div class="formA_wrapper-formfields">
+						<div class="formA_user-info">
+							<div class="formA_input-row">
+								<label for="formA_i-name" class="formA_input-row__label">Your name</label>
+								<input name="name" id="formA_i-name" type="text" class="formA_input-row__input" />
+							</div>
+							<div class="formA_input-row">
+								<label for="formA_i-mail" class="formA_input-row__label">Email</label>
+								<input name="mail" id="formA_i-mail" type="email" class="formA_input-row__input" />
+							</div>
+							<div class="formA_input-row">
+								<label for="formA_i-phone" class="formA_input-row__label">Phone</label>
+								<input name="phone" id="formA_i-phone" type="text" class="formA_input-row__input" />
+							</div>
+						</div>
+						<div class="formA_message">
+							<div class="formA_input-row">
+								<label for="formA_i-message" class="formA_input-row__label">Message</label>
+								<textarea name="message" id="formA_i-message" class="formA_input-row__input"
+									placeholder="Message"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="formA_btn-holder">
+						<button class="formA_btn">Send Message</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+[class|="formA"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formA-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.formA-btn {
+  background-color: #fff;
+  color: #2b437d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.formA-btn:focus {
+  -webkit-box-shadow: 0 0 0 2px #99a8e3;
+          box-shadow: 0 0 0 2px #99a8e3;
+}
+
+.formA-btn--submit {
+  padding: 8px 30px;
+}
+
+.formA-btn__txt {
+  margin-right: 10px;
+}
+
+.formA-btn--full {
+  width: 100%;
+  height: 100%;
+}
+
+.formA-section_contact {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2b437d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formA-contact_card {
+  margin: 0 20px;
+  max-width: 1024px;
+  width: 100%;
+  background-color: #2b437d;
+  -webkit-box-shadow: 0 0 18px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 18px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 60px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+.formA-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.formA-header__logo {
+  font-family: 'Courgette', cursive;
+}
+
+.formA-header__menu li {
+  display: inline-block;
+}
+
+.formA-header__menu li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.formA-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.formA-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formA-info__text {
+  margin-bottom: 60px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.formA-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.formA-form_field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.formA-form_field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.formA-form_field label {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.formA-form_field input {
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  caret-color: #fff;
+  color: inherit;
+  padding: 5px 0;
+}
+
+.formA-form_field input::-webkit-input-placeholder {
+  color: #8295df;
+}
+
+.formA-form_field input:-ms-input-placeholder {
+  color: #8295df;
+}
+
+.formA-form_field input::-ms-input-placeholder {
+  color: #8295df;
+}
+
+.formA-form_field input::placeholder {
+  color: #8295df;
+}
+
+.formA-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.formA-social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.formA-social_icons__icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.formA-social_icons__icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 845px) {
+  .formA-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formA-contact_card {
+    padding: 30px;
+  }
+  .formA-info {
+    margin-bottom: 50px;
+  }
+  .formA-info__text {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .formA-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formA-form_field:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .formA-contact_card {
+    padding: 30px;
+  }
+  .formA-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formA-header__menu {
+    padding: 0;
+  }
+  .formA-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=from.css.map */
